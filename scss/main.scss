@@ -33,11 +33,12 @@ $main-font1: 'aspiredemibold';
 }
 
 .nav-location {
-	display:inline-block; 
-	clear: right;
+	float: right !important;
+	margin-right: 200px;
 }
 
-.socialmedia-style {
+.sm-style a {
+	float: right !important;
 }
 
 

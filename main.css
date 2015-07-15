@@ -14,8 +14,11 @@
   color: black !important; }
 
 .nav-location {
-  display: inline-block;
-  clear: right; }
+  float: right !important;
+  margin-right: 200px; }
+
+.sm-style a {
+  float: right !important; }
 
 /* MODULE */
 /* STATE */
