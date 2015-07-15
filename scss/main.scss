@@ -20,10 +20,25 @@ $main-font1: 'aspiredemibold';
 
 /* BASE */
 
-
-
 /* LAYOUT */
 
+.align-center {
+	text-align: center;
+	margin: auto;
+	align-content: center;
+}
+
+.p-black {
+	color: black !important;
+}
+
+.nav-location {
+	display:inline-block; 
+	clear: right;
+}
+
+.socialmedia-style {
+}
 
 
 /* MODULE */

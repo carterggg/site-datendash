@@ -5,6 +5,18 @@
 /* Cursive Font */
 /* BASE */
 /* LAYOUT */
+.align-center {
+  text-align: center;
+  margin: auto;
+  align-content: center; }
+
+.p-black {
+  color: black !important; }
+
+.nav-location {
+  display: inline-block;
+  clear: right; }
+
 /* MODULE */
 /* STATE */
 /* THEME */
