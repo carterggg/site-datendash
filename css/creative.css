@@ -88,14 +88,17 @@ aside {
     transition: all .35s;
 }
 
+.navbar-default li  {
+	margin-top: 3px;
+}
+
 /* Main-Header Font */
 .navbar-default .navbar-header .navbar-brand {
     font-family: 'aspiredemibold';
-	font-size: 34px;
+	font-size: 40px;
 	margin-top: 5px;
     color: black;
 }
-
 
 /* Nav Hover text Color */
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -338,6 +341,11 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 
+.bt-green {
+background-color: #3fb18d !important;
+	color: white !important;
+}
+
 .btn-default {
     border-color: #fff;
     color: black;
@@ -479,6 +487,181 @@ img::-moz-selection {
     background: 0 0;
 }
 
+
+
 body {
     webkit-tap-highlight-color: black;
 }
+
+.hostevent-style {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+/* Footer Nav Styles */
+
+.copyright-style {
+	font-size: 15px !important;
+}
+
+.lowerfooter-style {
+	font-size: 10px !important;
+	float: right;
+	color: darkgrey !important;
+}
+
+@media (min-width: 0px) and (max-width: 400px) { 
+	.lowerfooter-style {
+		font-size: 10px !important;
+		text-align: center;
+		float: none;
+		color: darkgrey !important;
+}
+}
+
+.network-style a {
+  float: right; }
+
+.network-style2 a {
+  float: right;
+  margin-right: 1px; 
+}
+
+.footer-slogan {
+	font-size: 38px !important;
+	color: black;
+}
+.align-center {
+  margin: auto;
+  text-align: center; }
+
+nav ul li {
+  display: inline;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.nav-footer ul li a {
+  color: black;
+  font-size: 14px;
+  border-right: 2px solid #3fb18d;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+
+.nav-footer-left {
+  border-left: 2px solid #3fb18d;
+
+}
+
+.nav-footer-border {
+  border-left: 2px solid black; }
+
+.nav-footer ul li a:hover {
+  color: #3fb18d; }
+
+.maincontentlayout {
+  position: relative; }
+
+
+
+/* Mailing List Styles */
+
+.maillist-style header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.maillist-style header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+.maillist-style header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.maillist-style header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+.maillist-style header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+@media(min-width:768px) {
+    .maillist-style header {
+        min-height: 100%;
+    }
+
+    .maillist-style header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .maillist-style header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    .maillist-style header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+
+
+/* FORM */
+input, textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  border: black solid 3px;
+  font-size: 16px;
+  color: black;
+  background-color: white; }
+
+label {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: black; }
+
+.error {
+  color: white; }
+
+form {
+  width: 100%; }
+
+.val-style {
+  text-align: center; }
