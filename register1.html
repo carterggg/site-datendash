@@ -1,17 +1,3 @@
-<?php
-	
-	// * IMPORTANT * Set your email information here
-	define('DESTINATION_EMAIL','datendashllc@gmail.com');
-	define('MESSAGE_SUBJECT','Date N Dash LLC Customer Order');
-	define('REPLY_TO', 'datendashllc@gmail.com');
-	define('FROM_ADDRESS', 'datendashllc@gmail.com');
-	define('REDIRECT_URL', 'register.php');
-	
-	require_once('validation.php');
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,62 +87,56 @@
             </div>      
         </div>
      </section>
-                    
+                    <div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+							  <br><br>
+								<h3 class="align-center">Sign Up With Us:</h3>
+							</div>
+						</div>
+					</div>
 					<div class="container">
             			<div class="row">
-							<div class="col-xs-1"></div>
-                		       <div class="col-xs-12 col-sm-5">
-               		       			<br>
-               		       			<h3 class="align-center">Tell Us About You:</h3>
-               		       				<br>
-                		       			<?php include('inc/form3.php'); ?>
-                		       			<br><br>
+							<div class="col-xs-2 col-sm-2"></div>
+               		       		<div class="hidden-xs col-sm-5">
+               		       		  <br><br>
+									<img src="images/layout/sample9.jpg" title="Date N Dash LLC" class="img-responsive">
 								</div>
-                		       	<div class="col-xs-12 col-sm-5">
-                		       		<br>
-								   	<h3 class="align-center">Pick Your Event:</h3>
-								   	<br>
-								   	
-								   	
+                		       	<div class="col-xs-10 col-sm-5">
+                		       		<br> 
+                		       		  	
 							<span class="form-border-style">
-							
-							   	
 								   	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SK5PG4LPHQFXL">
-<table>
-<tr><td><input type="hidden" name="on0" value="Events">Events</td></tr><tr><td><select name="os0">
-	<option value="September's Event">September's Event $20.00 USD</option>
-	<option value="October's Event">October's Event $20.00 USD</option>
-	<option value="Decembers's Event">Decembers's Event $20.00 USD</option>
-</select><br><br> </td></tr>
-
-<tr><td><input type="hidden" name="on1" value="Are you:">Are you:</td></tr><tr><td><select name="os1">
-	<option value="Man Seeking Woman?">Man Seeking Woman? </option>
-	<option value="Woman Seeking Man?">Woman Seeking Man? </option>
-	<option value="Man Seeking Man?">Man Seeking Man? </option>
-	<option value="Woman Seeking Woman?">Woman Seeking Woman? </option>
-</select><br><br> </td></tr>
-<tr><td><input type="hidden" name="on2" value="Full Name:">Full Name:</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-
-	<span class="buynow-style align-center">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	</span>
-</form>
-								
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="K4RVB4SS6DWGC">
+		<table>
+			<tr><td><input type="hidden" name="on0" value="Events">Events</td></tr><tr><td><select name="os0">
+				<option value="September's Event">September's Event $20.00 USD</option>
+				<option value="October's Event">October's Event $20.00 USD</option>
+				<option value="Decembers's Event">Decembers's Event $20.00 USD</option>
+					</select><br><br> </td></tr>
+			<tr><td><input type="hidden" name="on1" value="Are you:">Are you:</td></tr><tr><td><select name="os1">
+				<option value="Man Seeking Woman?">Man Seeking Woman? </option>
+				<option value="Woman Seeking Man?">Woman Seeking Man? </option>
+				<option value="Man Seeking Man?">Man Seeking Man? </option>
+				<option value="Woman Seeking Woman?">Woman Seeking Woman? </option>
+					</select><br><br> </td></tr>
+			<tr><td><input type="hidden" name="on2" value="Full Name:">Full Name:</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+			
+			<tr><td><input type="hidden" name="on3" value="Date of Birth:">Date of Birth:</td></tr><tr><td><input type="text" name="os3" maxlength="200"></td></tr>
+		</table>
+			<input type="hidden" name="currency_code" value="USD">
+			
+			<span class="buynow-style align-center">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</span>
+									</form>
 								</span>	
-
-								</div>
-              		       						
-               		       				
-                		       			
-                		       			    			
-                		       		<br><br>
+	    			
+                		       		<br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
                 		       </div>
-                		    <div class="col-xs-1"></div>
+                		    <div class="hidden-xs col-sm-2"></div>
             			</div>
         			</div>
                     
