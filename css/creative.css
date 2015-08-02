@@ -504,6 +504,7 @@ body {
 
 .copyright-style {
 	font-size: 15px !important;
+	color: #494B48;
 }
 
 .lowerfooter-style {
@@ -643,14 +644,21 @@ nav ul li {
 
 
 /* FORM */
+
 input, textarea {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   width: 100%;
   border: black solid 3px;
   font-size: 16px;
   color: black;
   background-color: white; }
+
+.form-small-style {
+	 font-size: 15px;
+	 color: #494B48;
+	
+}
 
 label {
   margin-bottom: 0px;
@@ -665,3 +673,20 @@ form {
 
 .val-style {
   text-align: center; }
+
+
+/* Paypal Form */
+
+.form-border-style form input {
+	border: solid 1px;
+	margin-bottom: 20px;
+}
+
+.form-border-style form {
+	margin-left: 132px;
+	margin-top: 10px;
+}
+
+.buynow-style input {
+	width: 45%;
+}
