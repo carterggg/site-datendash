@@ -62,19 +62,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">Owners</a>
+                        <a class="page-scroll" href="theowners.html">Owners</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact Us</a>
+                        <a class="page-scroll" href="index.html">Contact Us</a>
                     </li>
                       <li>
-                        <a class="page-scroll" href="#portfolio">Register</a>
+                        <a class="page-scroll" href="register.html">Register</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="events.html">Events</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#faq">FAQ</a>
+                        <a class="page-scroll" href="index.html">FAQ</a>
                     </li>
                 </ul>
             </div> <!-- /.navbar-collapse -->
