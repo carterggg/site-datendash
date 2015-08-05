@@ -2,10 +2,10 @@
 <?php
 	
 	// * IMPORTANT * Set your email information here
-	define('DESTINATION_EMAIL','eliteremodelingatl@bellsouth.net');
-	define('MESSAGE_SUBJECT','Elite Remodeling Atlanta Website Email');
-	define('REPLY_TO', 'eliteremodelingatl@bellsouth.net');
-	define('FROM_ADDRESS', 'eliteremodelingatl@bellsouth.net');
+	define('DESTINATION_EMAIL','datendashllc@gmail.com');
+	define('MESSAGE_SUBJECT','Date N Dash LLC Contact Form Website Email');
+	define('REPLY_TO', 'datendashllc@gmail.com');
+	define('FROM_ADDRESS', 'datendashllc@gmail.com');
 	define('REDIRECT_URL', 'index.html');
 	
 	require_once('validation.php');

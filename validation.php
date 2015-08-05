@@ -98,9 +98,8 @@ if(@$_POST['submitted'])
 			echo '<div class="val-background align-center">';
 			echo "<br>";
 			echo '<img src="images/layout/logo.png" class="align-center" width="200px">';
-			echo "<h2 class='val-style'>Thank You For Registering!</h2>";
+			echo "<h2 class='val-style'>Thank You!</h2>";
 		    echo "<br>";
-			echo "<a href=\"".REDIRECT_URL ."\">Now Pick Your Event!</a>";
 			echo "<br>";
 			echo '</div>';
 			exit();
