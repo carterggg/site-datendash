@@ -17,7 +17,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Elite Remodeling Atlanta LLC: Contact</title>
+    <meta name="description" content="Date N Dash LLC Speed dating Atlanta">
+    <meta name="author" content="carterguthrie.com">
+
+    <title>Date N Dash: Speed Dating Contact Us</title>
 <link rel="stylesheet" href="styles/css/bootstrap.min.css">
 <link rel="stylesheet" href="styles/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="main.css">
